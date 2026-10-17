@@ -1,9 +1,3 @@
-# ==============================================================================
-# PROJETO TASKTRACKER - FASE 2
-# Estudante: Paulo Eduardo Fernandes Dias | RA: 22303387
-# Disciplina: Bootcamp II - Ciência da Computação
-# ==============================================================================
-
 def exibir_menu():
     print("\n========================================")
     print("         SISTEMA TASKTRACKER            ")
