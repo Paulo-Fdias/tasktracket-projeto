@@ -1,3 +1,9 @@
+# ==============================================================================
+# PROJETO TASKTRACKER - FASE 3 (ENTREGA FINAL)
+# Estudante: Paulo Eduardo Fernandes Dias | RA: 22303387
+# Disciplina: Bootcamp II - Ciência da Computação
+# ==============================================================================
+
 def exibir_menu():
     print("\n========================================")
     print("         SISTEMA TASKTRACKER            ")
@@ -65,7 +71,7 @@ def visualizar_tarefas(lista_tarefas):
 
 def main():
     tarefas = []
-    print("Bem-vindo ao TaskTracker - Versão Python (Fase 2)")
+    print("Bem-vindo ao TaskTracker - Versão Containerizada (Fase 3 - Docker)")
     print("Desenvolvido por: Paulo Eduardo Fernandes Dias (RA: 22303387)")
     
     while True:

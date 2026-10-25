@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tasktracker:
+    build: .
+    image: tasktracker-app
+    container_name: tasktracker-container
+    stdin_open: true  # Mantém o canal de entrada de dados aberto (stdin)
+    tty: true         # Aloca um terminal virtual para suporte ao input() da CLI
